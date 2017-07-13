@@ -1,10 +1,14 @@
-# Módulo IGIC (Impuesto General Indirecto Canario) para Prestashop 1.6
+# Módulo IGIC (Impuesto General Indirecto Canario) para Prestashop
 
 ## Descripción
 
 Este módulo instala en tu tienda el impuesto **IGIC (Impuesto General Indirecto Canario)** de forma sencilla y sin configuraciones.
 
 He desarrollado este módulo para **mejorar el comercio en Canarias**, ya que la mayoría de tiendas Prestashop que he visto no tienen o no saben como configurar este impuesto, limitando así los envíos a Canarias.
+
+## ¿Dónde está el código?
+
+Navega por las diferentes **ramas del repositorio (branch)** para descargar / consultar la versión del módulo para cada versión de Prestashop disponible.
 
 ## Sobre el IGIC
 

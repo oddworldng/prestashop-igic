@@ -23,12 +23,16 @@
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 */
 
-class Blockigic extends Module
+if (!defined('_PS_VERSION_')) {
+    exit;
+}
+
+class Ps_Igic extends Module
 {
     /* CONSTRUCT */
     public function __construct()
     {
-        $this->name = 'blockigic';
+        $this->name = 'ps_igic';
         $this->displayName = $this->l('IGIC');
         $this->description = $this->l('Tax for Canary');
         $this->tab = 'billing_invoicing';
@@ -36,7 +40,7 @@ class Blockigic extends Module
         $this->author = 'Andres Nacimiento';
         $this->bootstrap = true;
         $this->module_key = '';
-        $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
+        $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         parent::__construct();
     }
     /* INSTALL */

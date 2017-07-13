@@ -23,15 +23,15 @@
 *
 *}
 <div id="content">
-	<h1>{l s='This module neednt configuration.' mod='blockigic'}</h1>
+	<h1>{l s='This module neednt configuration.' mod='ps_igic'}</h1>
 	<p>
-		<strong>{l s='IGIC Reduced rate (3%)' mod='blockigic'}</strong>: 
-		{l s='It applies to mining, chemical industry, textile, wood, paper,' mod='blockigic'}
-		{l s='to ground transportation and vehicle repair. In the rest of Spain is 10%.' mod='blockigic'}
+		<strong>{l s='IGIC Reduced rate (3%)' mod='ps_igic'}</strong>: 
+		{l s='It applies to mining, chemical industry, textile, wood, paper,' mod='ps_igic'}
+		{l s='to ground transportation and vehicle repair. In the rest of Spain is 10%.' mod='ps_igic'}
 	</p>
 	<p>
-		<strong>{l s='IGIC Standard rate (7%)' mod='blockigic'}</strong>: 
-		{l s='It is applied to most products and which are not included in the other categories.' mod='blockigic'}
-		{l s='In the rest of Spain is 21%.' mod='blockigic'}
+		<strong>{l s='IGIC Standard rate (7%)' mod='ps_igic'}</strong>: 
+		{l s='It is applied to most products and which are not included in the other categories.' mod='ps_igic'}
+		{l s='In the rest of Spain is 21%.' mod='ps_igic'}
 	</p>
 </div>

@@ -28,7 +28,6 @@ class Model
 
     public function installZone($zone)
     {
-
         Db::getInstance()->insert('zone', array(
             'id_zone'           => (int)'',
             'name'              => pSQL($zone),
@@ -39,7 +38,6 @@ class Model
     /* GETS ID Zone (ps_zone): id_zone */
     public function getIDZone($zone)
     {
-
         $sql = '
             SELECT `id_zone`
             FROM `'._DB_PREFIX_.'zone`
