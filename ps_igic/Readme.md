@@ -12,21 +12,21 @@ Navega por las diferentes **ramas del repositorio (branch)** para descargar / co
 
 ## Sobre el IGIC
 
-Este módulo aplica el impuesto **IGIC tipo reducido (3%)** y **IGIC tipo general (7%)**:
+Este módulo aplica el impuesto **IGIC tipo reducido (3%)** y **IGIC tipo general (6.5%)**:
 
 * **IGIC tipo reducido (3%)**: Se aplica a la minería, industria química, textil, maderera, papelera, al transporte terreste y a la reparación de vehículo. En el resto de España es del 10%.
 
-* **IGIC tipo general (7%)**: Se aplica sobre la mayoría de productos y sobre los que no están recogidos en el resto de categorías. En el resto de España es del 21%.
+* **IGIC tipo general (6.5%)**: Se aplica sobre la mayoría de productos y sobre los que no están recogidos en el resto de categorías. En el resto de España es del 21%.
 
 ## ¿Cómo funciona?
 
-Se aplica el impuesto IGIC al cliente (registrado) que entre en la tienda con provincia **Santa Cruz de Tenerife** o **Las Palmas**. 
+Se aplica el impuesto IGIC al cliente (registrado) que entre en la tienda con provincia **Santa Cruz de Tenerife** o **Las Palmas**.
 
 ## Reglas de impuestos
 
 Estos impuestos están incluidos en las **reglas de impuestos** que vienen por defecto configuradas en nuestra tienda en Español, y son las siguientes:
 
-* **ES Standard rate (21%)**, incluye al impuesto general (7%)
+* **ES Standard rate (21%)**, incluye al impuesto general (6.5%)
 * **ES Reduced Rate (10%)**, incluye al impuesto reducido (3%)
 
 ## Comunidad de Prestashop
@@ -35,10 +35,10 @@ He aportado este módulo a toda la comunidad de Prestashop, publicando de forma 
 
 ## Autor
 
-**Andrés Nacimiento**. 
+**Andrés Nacimiento**.
 
 * **Experto en Prestashop**.
-* Ingeniero informático por la [Universidad de La Laguna](https://www.ull.es/). 
+* Ingeniero informático por la [Universidad de La Laguna](https://www.ull.es/).
 * Máster en Ingeniería Informática por la [Universidad de La Laguna](https://www.ull.es/).
 * **Profesor** de los siguientes **cursos** en la [Universidad de La Laguna](https://www.ull.es/):
 	* **Prestashop básico**: crea tu propia tienda online.

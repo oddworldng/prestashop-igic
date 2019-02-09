@@ -18,19 +18,19 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    Andres Nacimiento <andresnacimiento@gmail.com>
-*  @copyright 2016 Andres Nacimiento
+*  @copyright 2019 Andres Nacimiento
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *
 *}
 <div id="content">
 	<h1>{l s='This module neednt configuration.' mod='ps_igic'}</h1>
 	<p>
-		<strong>{l s='IGIC Reduced rate (3%)' mod='ps_igic'}</strong>: 
+		<strong>{l s='IGIC Reduced rate (3%)' mod='ps_igic'}</strong>:
 		{l s='It applies to mining, chemical industry, textile, wood, paper,' mod='ps_igic'}
 		{l s='to ground transportation and vehicle repair. In the rest of Spain is 10%.' mod='ps_igic'}
 	</p>
 	<p>
-		<strong>{l s='IGIC Standard rate (7%)' mod='ps_igic'}</strong>: 
+		<strong>{l s='IGIC Standard rate (6.5%)' mod='ps_igic'}</strong>:
 		{l s='It is applied to most products and which are not included in the other categories.' mod='ps_igic'}
 		{l s='In the rest of Spain is 21%.' mod='ps_igic'}
 	</p>

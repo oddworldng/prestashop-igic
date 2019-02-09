@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    Andres Nacimiento <andresnacimiento@gmail.com>
-*  @copyright 2016 Andres Nacimiento
+*  @copyright 2019 Andres Nacimiento
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 */
 
@@ -69,7 +69,7 @@ class Model
         $value = Db::getInstance()->ExecuteS($sql);
         return $value[0]["id_country"];
     }
-    
+
     /* GETS ID Tax (ps_tax) using rate (percent) */
     public function getIDTax($rate)
     {
@@ -146,7 +146,7 @@ class Model
     public function delZone($zone)
     {
         $sql = '
-            DELETE FROM '._DB_PREFIX_.'zone 
+            DELETE FROM '._DB_PREFIX_.'zone
             WHERE `id_zone`='.(int)$this->getIDZone($zone).'
         ';
 
@@ -159,7 +159,7 @@ class Model
     public function delState($state)
     {
         $sql = '
-            DELETE FROM '._DB_PREFIX_.'state 
+            DELETE FROM '._DB_PREFIX_.'state
             WHERE `id_state`='.(int)$this->getIDState($state).'
         ';
 
@@ -172,7 +172,7 @@ class Model
     public function delTaxLang($taxLang)
     {
         $sql = '
-            DELETE FROM '._DB_PREFIX_.'tax_lang 
+            DELETE FROM '._DB_PREFIX_.'tax_lang
             WHERE `name`="'.pSQL($taxLang).'"
         ';
 
