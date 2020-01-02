@@ -1,6 +1,6 @@
 <?php
 /**
-* 2014 PrestaShop
+* 2020 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    Andres Nacimiento <andresnacimiento@gmail.com>
-*  @copyright 2019 Andres Nacimiento
+*  @copyright 2020 Andres Nacimiento
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 */
 
@@ -36,7 +36,7 @@ class Ps_Igic extends Module
         $this->displayName = $this->l('IGIC');
         $this->description = $this->l('Tax for Canary');
         $this->tab = 'billing_invoicing';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->author = 'Andres Nacimiento';
         $this->bootstrap = true;
         $this->module_key = '';
@@ -70,12 +70,12 @@ class Ps_Igic extends Module
 
         $db->installZone("Canarias");
 
-        /* IGIC 6.5% */
-        $db->installTax(6.500);
-        $db->installTaxLang("IGIC 6.5%", 6.500);
+        /* IGIC 7% */
+        $db->installTax(7.000);
+        $db->installTaxLang("IGIC 7%", 7.000);
 
-        $db->installTaxRules("Santa Cruz de Tenerife", 6.500, "ES Standard rate (21%)");
-        $db->installTaxRules("Las Palmas", 6.500, "ES Standard rate (21%)");
+        $db->installTaxRules("Santa Cruz de Tenerife", 7.000, "ES Standard rate (21%)");
+        $db->installTaxRules("Las Palmas", 7.000, "ES Standard rate (21%)");
 
         /* IGIC 3% */
         $db->installTax(3.000);
@@ -95,7 +95,7 @@ class Ps_Igic extends Module
         $db = new Model();
 
         $db->delZone("Canarias");
-        $db->delTaxLang("IGIC 6.5%");
+        $db->delTaxLang("IGIC 7%");
         $db->delTax(6.500);
         $db->delTaxLang("IGIC 3%");
         $db->delTax(3.000);

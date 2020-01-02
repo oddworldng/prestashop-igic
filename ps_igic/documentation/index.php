@@ -1,6 +1,6 @@
 <?php
 /**
-* 2014 PrestaShop
+* 2020 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -19,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author    Andres Nacimiento <andresnacimiento@gmail.com>
-*  @copyright 2016 Andres Nacimiento
+*  @copyright 2020 Andres Nacimiento
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 */
 

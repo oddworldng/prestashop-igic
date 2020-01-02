@@ -12,11 +12,11 @@ Navega por las diferentes **ramas del repositorio (branch)** para descargar / co
 
 ## Sobre el IGIC
 
-Este módulo aplica el impuesto **IGIC tipo reducido (3%)** y **IGIC tipo general (6.5%)**:
+Este módulo aplica el impuesto **IGIC tipo reducido (3%)** y **IGIC tipo general (7%)**:
 
 * **IGIC tipo reducido (3%)**: Se aplica a la minería, industria química, textil, maderera, papelera, al transporte terreste y a la reparación de vehículo. En el resto de España es del 10%.
 
-* **IGIC tipo general (6.5%)**: Se aplica sobre la mayoría de productos y sobre los que no están recogidos en el resto de categorías. En el resto de España es del 21%.
+* **IGIC tipo general (7%)**: Se aplica sobre la mayoría de productos y sobre los que no están recogidos en el resto de categorías. En el resto de España es del 21%.
 
 ## ¿Cómo funciona?
 
@@ -26,7 +26,7 @@ Se aplica el impuesto IGIC al cliente (registrado) que entre en la tienda con pr
 
 Estos impuestos están incluidos en las **reglas de impuestos** que vienen por defecto configuradas en nuestra tienda en Español, y son las siguientes:
 
-* **ES Standard rate (21%)**, incluye al impuesto general (6.5%)
+* **ES Standard rate (21%)**, incluye al impuesto general (7%)
 * **ES Reduced Rate (10%)**, incluye al impuesto reducido (3%)
 
 ## Comunidad de Prestashop
