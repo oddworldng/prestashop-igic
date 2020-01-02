@@ -96,7 +96,7 @@ class Ps_Igic extends Module
 
         $db->delZone("Canarias");
         $db->delTaxLang("IGIC 7%");
-        $db->delTax(6.500);
+        $db->delTax(7.000);
         $db->delTaxLang("IGIC 3%");
         $db->delTax(3.000);
         $db->delTaxRule("IGIC. Impuesto para Canarias");
