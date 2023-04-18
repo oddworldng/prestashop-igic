@@ -6,6 +6,10 @@ Este módulo instala en tu tienda el impuesto **IGIC (Impuesto General Indirecto
 
 He desarrollado este módulo para **mejorar el comercio en Canarias**, ya que la mayoría de tiendas Prestashop que he visto no tienen o no saben como configurar este impuesto, limitando así los envíos a Canarias.
 
+## Compatibilidad
+
+Este módulo ha sido probado y funciona en las versiones de Prestashop 1.7 y Prestashop 8.0.
+
 ## ¿Dónde está el código?
 
 Navega por las diferentes **ramas del repositorio (branch)** para descargar / consultar la versión del módulo para cada versión de Prestashop disponible.
@@ -28,6 +32,16 @@ Estos impuestos están incluidos en las **reglas de impuestos** que vienen por d
 
 * **ES Standard rate (21%)**, incluye al impuesto general (7%)
 * **ES Reduced Rate (10%)**, incluye al impuesto reducido (3%)
+
+## Configuración
+
+Para que este módulo funcione correctamente, hay que añadir la opción de provincias a la hora de registrarse un usuario. En concreto, hay que seguir los siguientes pasos:
+
+1. En el backoffice de tu tienda, accede a **Internacional** > **Ubicaciones geográficas** > **Países**. 
+2. Busca el país "España", y presiona el botón **Modificar**.
+3. En la opción **Formato de dirección**, añade **State** la opción **name** (esto es para añadir las provincias). Se recomienda añadirlo debajo de **address2**.
+4. Por último guarda los cambios.
+
 
 ## Comunidad de Prestashop
 
